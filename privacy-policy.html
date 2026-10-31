@@ -28,7 +28,7 @@
   <div>
     <p class="sobrescrito">JMK Soluções · iPhone, iPad e Android</p>
     <h1>Política de Privacidade</h1>
-    <p class="data">Última atualização: 25 de outubro de 2026</p>
+    <p class="data">Última atualização: 28 de outubro de 2026</p>
   </div>
 </header>
 
@@ -55,10 +55,10 @@
     volta com a nota. Nós não guardamos esse texto.</p>
   </div>
   <div class="rapida">
-    <span class="veredito">Perfil → Ajustes</span>
+    <span class="veredito">Início → Ajustes</span>
     <h2>Como apago tudo?</h2>
     <p><strong>Apagar todo o progresso</strong> remove tudo do aparelho e,
-    com internet, também o que está no nosso servidor.</p>
+    com internet, também o que está ligado a você no nosso servidor.</p>
   </div>
 </div>
 
@@ -74,6 +74,7 @@
         <li><a href="#aparelho">O que fica no seu aparelho</a></li>
         <li><a href="#ia">Correção por IA</a></li>
         <li><a href="#uso">Uso do app e relatório de falhas</a></li>
+        <li><a href="#anuncios">Anúncios</a></li>
         <li><a href="#outros">Notícias, ditado e calendário</a></li>
         <li><a href="#bases">Por que tratamos (bases legais)</a></li>
         <li><a href="#prazos">Por quanto tempo</a></li>
@@ -119,13 +120,19 @@
               <td>Um código anônimo criado pelo app e o atestado de que é o app original (App Attest no iPhone, Play Integrity no Android)</td>
               <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
               <td data-rotulo="Quem recebe">Firebase Authentication e App Check (Google)</td>
-              <td data-rotulo="Para quê">Contar as correções por IA da semana e barrar uso automatizado</td>
+              <td data-rotulo="Para quê">Ligar o app à sua assinatura do Pro e barrar uso automatizado</td>
             </tr>
             <tr>
-              <td>Quantas correções por IA você fez nesta semana</td>
+              <td>Se você assina o Simulado OAB Pro: o comprovante da assinatura enviado pela loja — o plano, a validade e o número da assinatura</td>
+              <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
+              <td data-rotulo="Quem recebe">Nosso servidor no Firebase (Google, em São Paulo)</td>
+              <td data-rotulo="Para quê">Liberar a correção por IA e contar as correções do dia</td>
+            </tr>
+            <tr>
+              <td>Quantas correções por IA cada assinatura fez no dia e no mês, e quanto elas custaram</td>
               <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
               <td data-rotulo="Quem recebe">Nosso banco de dados no Firebase (Google, em São Paulo)</td>
-              <td data-rotulo="Para quê">Aplicar o limite semanal</td>
+              <td data-rotulo="Para quê">Aplicar o limite diário e acompanhar o custo do serviço</td>
             </tr>
             <tr>
               <td>Relatório de falhas: mensagem do erro, onde no código aconteceu, modelo do aparelho, versão do sistema e do app</td>
@@ -134,10 +141,16 @@
               <td data-rotulo="Para quê">Corrigir defeitos. Dá para desligar</td>
             </tr>
             <tr>
-              <td>Uso do app: telas abertas, simulados iniciados e concluídos com o número de acertos, correções pedidas e a nota, ditado, lembrete, tema e a fonte da notícia aberta</td>
+              <td>Uso do app: telas abertas, simulados iniciados e concluídos com o número de acertos, correções pedidas e a nota, ditado, lembrete, tema, a fonte da notícia aberta, quando apareceu um anúncio de tela cheia e, na tela do Pro, o plano escolhido e se a compra foi feita</td>
               <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
               <td data-rotulo="Quem recebe">Firebase Analytics (Google)</td>
               <td data-rotulo="Para quê">Saber o que melhorar. Dá para desligar</td>
+            </tr>
+            <tr>
+              <td>Para os anúncios: identificador de publicidade (no iPhone, só se você permitir), endereço IP, anúncios vistos e tocados e informações do aparelho</td>
+              <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
+              <td data-rotulo="Quem recebe">Google AdMob</td>
+              <td data-rotulo="Para quê">Mostrar e medir anúncios. Personalizados só com sua permissão no iPhone; no Android, dá para desligar</td>
             </tr>
             <tr>
               <td>Áudio do ditado, se você usar o microfone para ditar</td>
@@ -146,13 +159,19 @@
               <td data-rotulo="Para quê">Transformar a fala em texto</td>
             </tr>
             <tr>
+              <td>Dados de pagamento da assinatura, como o cartão</td>
+              <td data-rotulo="Situação"><span class="marca-situacao nao">Nós não recebemos</span></td>
+              <td data-rotulo="Quem recebe">A App Store ou a Google Play</td>
+              <td data-rotulo="Para quê">Cobrar a assinatura do Pro</td>
+            </tr>
+            <tr>
               <td>Endereço IP</td>
               <td data-rotulo="Situação"><span class="marca-situacao sai">Sai do aparelho</span></td>
-              <td data-rotulo="Quem recebe">Sites das fontes de notícias e os serviços do Firebase</td>
+              <td data-rotulo="Quem recebe">Sites das fontes de notícias, os serviços do Firebase e o Google AdMob</td>
               <td data-rotulo="Para quê">Entregar o que o app pediu, como em qualquer acesso à internet</td>
             </tr>
             <tr>
-              <td>Nome, e-mail, telefone, CPF, localização, contatos e identificador de publicidade</td>
+              <td>Nome, e-mail, telefone, CPF, localização precisa e contatos</td>
               <td data-rotulo="Situação"><span class="marca-situacao nao">Não é coletado</span></td>
               <td data-rotulo="Quem recebe" class="esconde-vazio"><span class="vazio">—</span></td>
               <td data-rotulo="Para quê" class="esconde-vazio"><span class="vazio">—</span></td>
@@ -161,9 +180,11 @@
         </table>
       </div>
       <p>
-        <strong>Sem anúncios e sem rastreamento.</strong> O app não exibe
-        publicidade, não usa o identificador de publicidade do aparelho e não
-        cruza seus dados com os de outros apps ou sites. Nós não vendemos dados.
+        <strong>Nós não vendemos dados.</strong> Os anúncios são o que paga o
+        app gratuito, junto com a assinatura do Simulado OAB Pro, que não tem
+        anúncios. Quem escolhe e mostra os anúncios é o Google AdMob, e o
+        que você escreve, responde ou anota nunca vai para ele. Os detalhes
+        estão na seção 05.
       </p>
     </section>
 
@@ -183,7 +204,7 @@
       </ul>
       <p>
         Você pode apagar tudo a qualquer momento em
-        <span class="caminho">Perfil → Ajustes → Apagar todo o progresso</span>.
+        <span class="caminho">Início → Ajustes → Apagar todo o progresso</span>.
       </p>
       <p>
         Esses dados entram no backup automático do sistema — iCloud no iPhone,
@@ -196,8 +217,9 @@
     <section id="ia">
       <h2><span class="num">03</span> Correção por IA</h2>
       <p>
-        Na 2ª fase, você pode pedir que a IA corrija sua peça ou questão pela
-        tabela de pontos da FGV. Antes da primeira correção, o app mostra um
+        Na 2ª fase, quem assina o <strong>Simulado OAB Pro</strong> pode pedir
+        que a IA corrija sua peça ou questão pela tabela de pontos da FGV —
+        até 10 correções por dia. Antes da primeira correção, o app mostra um
         aviso explicando o que acontece e só segue se você concordar. A cada
         pedido:
       </p>
@@ -205,14 +227,31 @@
         <li>o texto <strong>daquela resposta</strong>, junto com a identificação
           da prova e da questão, vai do aparelho para uma função no nosso
           servidor (Firebase, do Google, na região de São Paulo);</li>
-        <li>o servidor confere que o pedido veio do app original, conta a
-          correção no seu limite semanal e envia o texto à
+        <li>o servidor confere que o pedido veio do app original e que a sua
+          assinatura vale, conta a correção no limite do dia e envia o texto à
           <strong>Anthropic</strong>, empresa que fornece a IA Claude, junto
           com a tabela oficial da FGV;</li>
         <li>a nota e os comentários voltam para o seu aparelho, onde ficam
           salvos. <strong>O texto da resposta não é gravado no nosso
-          servidor</strong> — lá fica só a contagem de correções da semana.</li>
+          servidor</strong> — lá ficam só o vínculo com a sua assinatura e a
+          contagem de correções, explicados logo abaixo.</li>
       </ul>
+      <h3>A assinatura</h3>
+      <p>
+        Para saber que você assina, o app manda ao nosso servidor o
+        comprovante que a loja entrega depois da compra. O comprovante vem
+        assinado pela loja, e o servidor confere que ele é verdadeiro. Guardamos
+        só o plano (mensal ou anual), até quando ele vale e o número da
+        assinatura, ligados ao código anônimo do app. Não recebemos seu nome,
+        seu e-mail nem os dados do cartão: o pagamento é feito na loja.
+      </p>
+      <p>
+        As correções são contadas por assinatura, não por aparelho: o mesmo
+        Pro no iPhone e no iPad divide as 10 do dia, que voltam à meia-noite
+        (horário de Brasília). Para cada assinatura, guardamos também quantas
+        correções ela fez e quanto elas custaram, mês a mês — sem o texto e
+        sem a nota.
+      </p>
       <p>
         Pelos termos comerciais da Anthropic, o conteúdo enviado pela API
         <strong>não é usado para treinar os modelos de IA</strong>. Ela apaga
@@ -223,7 +262,7 @@
       </p>
       <p>
         A permissão pode ser desfeita a qualquer momento em
-        <span class="caminho">Perfil → Ajustes → Correção por IA</span>: o app
+        <span class="caminho">Início → Ajustes → Correção por IA</span>: o app
         volta a perguntar antes da próxima correção.
       </p>
       <div class="destaque">
@@ -236,9 +275,9 @@
         </p>
       </div>
       <p>
-        Você pode simplesmente não usar a correção por IA: o padrão de
-        resposta da FGV e a correção por conta própria funcionam sem que nada
-        saia do aparelho.
+        Sem a correção por IA — por escolha ou por não assinar —, o padrão de
+        resposta da FGV e a correção por conta própria continuam no app e
+        funcionam sem que nada saia do aparelho.
       </p>
     </section>
 
@@ -256,9 +295,13 @@
         <li><strong>Uso do app</strong> — telas abertas, simulados iniciados e
           concluídos (tipo, quantidade de questões e de acertos), correções
           pedidas (área, se foi peça ou questão, e a nota), uso do ditado,
-          lembrete ligado ou desligado, tema e cores escolhidos, e de qual site
-          era a notícia aberta. A área da 2ª fase escolhida vai junto, como um
-          rótulo, para separar os relatórios por área.</li>
+          lembrete ligado ou desligado, tema e cores escolhidos, de qual site
+          era a notícia aberta e em que ponto apareceu um anúncio de tela
+          cheia. Na tela do Simulado OAB Pro: por onde você chegou, o plano
+          escolhido, se a compra começou ou foi concluída (com o valor) e se
+          uma compra foi restaurada. A área da 2ª fase escolhida e se você
+          assina o Pro vão junto, como rótulos, para separar os
+          relatórios.</li>
         <li>O próprio Analytics registra dados técnicos: instalação, sessões,
           país, idioma, modelo do aparelho e versão do app.</li>
       </ul>
@@ -268,15 +311,94 @@
       </p>
       <p>
         Você pode desligar os dois em
-        <span class="caminho">Perfil → Ajustes → Enviar estatísticas de uso e
+        <span class="caminho">Início → Ajustes → Enviar estatísticas de uso e
         erros</span>. Desligado, nada disso sai do aparelho. Ao apagar todo o
         progresso, o app também zera o identificador do Analytics neste
-        aparelho.
+        aparelho. Esse interruptor não desliga os anúncios (seção 05).
+      </p>
+    </section>
+
+    <section id="anuncios">
+      <h2><span class="num">05</span> Anúncios</h2>
+      <p>
+        O app é gratuito e se mantém com anúncios do
+        <strong>Google AdMob</strong>, a rede de anúncios do Google. Eles
+        aparecem assim:
+      </p>
+      <ul>
+        <li><strong>Faixa embaixo da tela</strong> — acima do menu e nas telas
+          de Estatísticas, da prova e do resultado;</li>
+        <li><strong>Nas notícias</strong> — um anúncio a cada 6 notícias,
+          marcado como "Publicidade";</li>
+        <li><strong>Tela cheia</strong> — no modo estudo, hoje a cada 5
+          questões respondidas, quando você toca em "Próxima", nunca por cima
+          da resposta ou do comentário; e uma vez ao entregar uma prova completa
+          cronometrada, nunca durante a prova. As 10 primeiras questões que
+          você responde no app não têm anúncio de tela cheia.</li>
+      </ul>
+      <p>Não há anúncio enquanto você escreve as respostas da 2ª fase. Quem
+      assina o Simulado OAB Pro não vê anúncios.</p>
+      <h3>O que o AdMob recebe</h3>
+      <p>
+        Para mostrar os anúncios, o kit do Google que vem dentro do app envia
+        ao Google:
+      </p>
+      <ul>
+        <li>o endereço IP, que indica a localização aproximada (a cidade ou a
+          região, não o endereço);</li>
+        <li>identificadores do aparelho, entre eles o identificador de
+          publicidade — no iPhone, só se você permitir;</li>
+        <li>os anúncios vistos e tocados;</li>
+        <li>quando o app é aberto e como ele é usado, como os toques;</li>
+        <li>informações técnicas de diagnóstico, como o desempenho do app.</li>
+      </ul>
+      <p>
+        O Google usa isso para mostrar e medir os anúncios, para personalizá-los
+        quando você permite e para evitar fraude.
+        <strong>Nada do que você escreve, responde ou anota vai para os
+        anúncios.</strong> O AdMob segue a política do próprio Google:
+        <a href="https://policies.google.com/technologies/partner-sites">como
+        o Google usa os dados dos apps parceiros</a> e a
+        <a href="https://policies.google.com/privacy">política de privacidade
+        do Google</a>.
+      </p>
+      <h3>No iPhone e no iPad</h3>
+      <p>
+        Depois das telas de boas-vindas, aparece o aviso da Apple perguntando se
+        o app pode rastrear você. <strong>Só se você permitir</strong>, o
+        AdMob recebe o identificador de publicidade (IDFA) e pode mostrar
+        anúncios ligados aos seus interesses. Se recusar, os anúncios
+        continuam, só que não personalizados. Dá para mudar quando quiser em
+        <span class="caminho">Ajustes do iPhone → Privacidade e Segurança →
+        Rastreamento</span>.
+      </p>
+      <h3>No Android</h3>
+      <p>
+        O AdMob usa o identificador de publicidade do Android. Você pode
+        redefini-lo ou apagá-lo quando quiser em
+        <span class="caminho">Configurações → Google → Anúncios</span> (em
+        alguns aparelhos, <span class="caminho">Configurações → Privacidade →
+        Anúncios</span>). Apagado, os anúncios continuam, só que não
+        personalizados.
+      </p>
+      <h3>Europa, Reino Unido e Suíça</h3>
+      <p>
+        Onde a lei exige — no Espaço Econômico Europeu, no Reino Unido e na
+        Suíça —, o app mostra o formulário de consentimento do Google. Lá, dá
+        para rever a escolha em <span class="caminho">Início → Ajustes →
+        Privacidade dos anúncios</span>. No Brasil, esse formulário não
+        aparece.
+      </p>
+      <p>
+        O interruptor <span class="caminho">Início → Ajustes → Enviar
+        estatísticas de uso e erros</span> não desliga os anúncios: ele cuida
+        só das estatísticas e dos relatórios de falha da seção 04. E o
+        Firebase Analytics continua sem usar o identificador de publicidade.
       </p>
     </section>
 
     <section id="outros">
-      <h2><span class="num">05</span> Notícias, ditado, calendário e lembrete</h2>
+      <h2><span class="num">06</span> Notícias, ditado, calendário e lembrete</h2>
       <h3>Notícias</h3>
       <p>
         A aba de notícias busca as manchetes diretamente nos sites das fontes
@@ -302,40 +424,63 @@
       <p>
         Se você ligar o lembrete, o app agenda os avisos no próprio aparelho.
         Nada é enviado pela internet e nós não sabemos se você abriu ou não.
-        Desligar é em <span class="caminho">Perfil → Lembrete</span>.
+        Desligar é em <span class="caminho">Início → Lembrete diário</span>.
       </p>
     </section>
 
     <section id="bases">
-      <h2><span class="num">06</span> Por que tratamos (bases legais)</h2>
+      <h2><span class="num">07</span> Por que tratamos (bases legais)</h2>
       <ul>
-        <li><strong>Correção por IA, código anônimo e limite semanal</strong> —
-          para prestar o serviço que você pediu ao tocar em "Corrigir com IA"
-          (LGPD, art. 7º, V), depois do aviso e da sua permissão, que pode ser
-          desfeita a qualquer momento.</li>
+        <li><strong>Correção por IA, assinatura do Pro, código anônimo e limite
+          diário</strong> — execução do contrato: para prestar o serviço que
+          você assinou e pediu ao tocar em "Corrigir com IA" (LGPD, art. 7º,
+          V), depois do aviso e da sua permissão, que pode ser desfeita a
+          qualquer momento.</li>
+        <li><strong>Registro do custo de cada assinatura</strong> — legítimo
+          interesse em controlar o custo do serviço e manter o registro
+          financeiro dele (art. 7º, IX), sem o texto, sem a nota e sem o seu
+          nome.</li>
         <li><strong>Atestado de app original</strong> — legítimo interesse em
           proteger o serviço contra fraude e uso automatizado (art. 7º, IX).</li>
         <li><strong>Estatísticas de uso e relatório de falhas</strong> —
           legítimo interesse em manter o app funcionando e melhorá-lo (art. 7º,
           IX), com dados mínimos, sem nome nem conteúdo, e com a opção de
           desligar a qualquer momento.</li>
+        <li><strong>Anúncios</strong> — mostrar anúncios não personalizados,
+          medi-los e evitar fraude: legítimo interesse em manter o app gratuito
+          e protegido (art. 7º, IX). O anúncio personalizado depende da sua
+          escolha: no iPhone, da sua permissão de rastreamento (art. 7º, I);
+          na Europa, no Reino Unido e na Suíça, do consentimento no formulário
+          do Google; no Android, você pode se opor a qualquer momento apagando
+          o identificador de publicidade (seção 05).</li>
       </ul>
     </section>
 
     <section id="prazos">
-      <h2><span class="num">07</span> Por quanto tempo</h2>
+      <h2><span class="num">08</span> Por quanto tempo</h2>
       <ul>
         <li><strong>No seu aparelho</strong> — até você apagar o progresso ou
           desinstalar o app.</li>
-        <li><strong>Contagem de correções da semana</strong> — é sobrescrita a
-          cada semana; não guardamos histórico do que foi corrigido. Ela e o
-          código anônimo são apagados quando você apaga todo o progresso.</li>
+        <li><strong>Vínculo com a assinatura</strong> (plano, validade e número
+          da assinatura) — usado enquanto a assinatura existir e guardado até
+          você apagar todo o progresso, quando é apagado junto com o código
+          anônimo.</li>
+        <li><strong>Contagem e custo de cada assinatura</strong> — a contagem
+          do dia é sobrescrita a cada dia. O total de correções e o custo, mês
+          a mês, ficam guardados como registro financeiro do serviço. Esse
+          registro leva só o número da assinatura — não o código anônimo nem o
+          seu nome — e por isso não é apagado com o progresso. Não guardamos
+          histórico do que foi corrigido.</li>
         <li><strong>Código anônimo</strong> — guardado pelo Firebase
           Authentication até ser apagado; o endereço IP usado para criá-lo fica
           registrado lá por algumas semanas.</li>
-        <li><strong>Registros técnicos do servidor</strong> — quando uma
-          correção falha, fica anotado qual prova e questão, sem o texto, nos
-          registros do Google Cloud, que os apaga em até 30 dias.</li>
+        <li><strong>Registros técnicos do servidor</strong> — a cada correção,
+          fica anotado o número da assinatura, o modelo da IA, o tamanho do
+          pedido e o custo; quando uma correção falha, qual prova e questão;
+          quando um comprovante da loja é recusado, o código anônimo e o
+          motivo. Nunca o texto.
+          Esses registros ficam no Google Cloud, que os apaga em até 30
+          dias.</li>
         <li><strong>Relatórios de falha</strong> — guardados pelo Crashlytics
           por até 90 dias.</li>
         <li><strong>Estatísticas de uso</strong> — guardadas pelo Google
@@ -343,11 +488,15 @@
           14 meses; depois disso ficam só números agregados.</li>
         <li><strong>Na Anthropic</strong> — até 30 dias, como descrito na
           seção 03.</li>
+        <li><strong>Dados dos anúncios</strong> — guardados pelo Google pelos
+          prazos da
+          <a href="https://policies.google.com/privacy">política de
+          privacidade dele</a>, não pelos nossos.</li>
       </ul>
     </section>
 
     <section id="exterior">
-      <h2><span class="num">08</span> Fornecedores e transferência internacional</h2>
+      <h2><span class="num">09</span> Fornecedores e transferência internacional</h2>
       <p>
         Para funcionar, o app conta com dois fornecedores, que tratam os dados
         em nosso nome e só para as finalidades acima:
@@ -362,14 +511,32 @@
           privacidade da Anthropic</a>.</li>
       </ul>
       <p>
+        Os anúncios vêm do <strong>Google AdMob</strong>. Nesse caso, o Google
+        não age só em nosso nome: ele trata os dados dos anúncios pela política
+        dele —
+        <a href="https://policies.google.com/technologies/partner-sites">como
+        o Google usa os dados dos apps parceiros</a>.
+      </p>
+      <p>
+        A cobrança da assinatura do Simulado OAB Pro é feita pela
+        <strong>App Store</strong> (Apple) ou pela <strong>Google Play</strong>
+        (Google), pelas regras e pela política de privacidade de cada loja.
+        Elas não nos passam seus dados de pagamento; recebemos só o comprovante
+        descrito na seção 03.
+      </p>
+      <p>
         Nosso servidor fica no Brasil (região de São Paulo), mas a Anthropic e
-        parte dos serviços do Google processam dados nos Estados Unidos. Essa
-        transferência internacional segue o art. 33 da LGPD:
+        parte dos serviços do Google, inclusive o AdMob, processam dados nos
+        Estados Unidos. Essa transferência internacional segue o art. 33 da
+        LGPD:
       </p>
       <ul>
         <li><strong>Google</strong> — com as cláusulas-padrão contratuais
           brasileiras, que fazem parte do contrato de tratamento de dados do
           Google Cloud e do Firebase (art. 33, II);</li>
+        <li><strong>Google AdMob</strong> — pelos termos de proteção de dados
+          que o Google aplica aos anúncios e pela política de privacidade
+          dele;</li>
         <li><strong>Anthropic</strong> — porque é necessária para prestar a
           correção que você pediu (art. 33, IX) e com a sua permissão
           específica, dada no aviso que aparece antes da primeira correção
@@ -378,7 +545,7 @@
     </section>
 
     <section id="direitos">
-      <h2><span class="num">09</span> Seus direitos e exclusão</h2>
+      <h2><span class="num">10</span> Seus direitos e exclusão</h2>
       <p>
         A LGPD (art. 18) garante a você confirmação, acesso, correção,
         anonimização, portabilidade, eliminação, informação sobre com quem os
@@ -388,15 +555,23 @@
       </p>
       <ul>
         <li><strong>Ver e apagar o que é seu:</strong> tudo o que você fez está
-          no app; <span class="caminho">Perfil → Ajustes → Apagar todo o
+          no app; <span class="caminho">Início → Ajustes → Apagar todo o
           progresso</span> remove de uma vez — do aparelho e, com internet, do
           nosso servidor.</li>
         <li><strong>Parar as estatísticas e os relatórios de falha:</strong>
-          <span class="caminho">Perfil → Ajustes → Enviar estatísticas de uso
+          <span class="caminho">Início → Ajustes → Enviar estatísticas de uso
           e erros</span>.</li>
+        <li><strong>Recusar anúncio personalizado:</strong> no iPhone, não
+          permita o rastreamento ou desligue depois em
+          <span class="caminho">Ajustes do iPhone → Privacidade e Segurança →
+          Rastreamento</span>; no Android, apague o identificador de
+          publicidade em <span class="caminho">Configurações → Google →
+          Anúncios</span>; na Europa, no Reino Unido e na Suíça, também em
+          <span class="caminho">Início → Ajustes → Privacidade dos
+          anúncios</span>. Os anúncios continuam, sem personalização.</li>
         <li><strong>Não enviar texto para a IA:</strong> basta não usar a
           correção por IA, ou desfazer a permissão em
-          <span class="caminho">Perfil → Ajustes → Correção por IA</span>.</li>
+          <span class="caminho">Início → Ajustes → Correção por IA</span>.</li>
         <li><strong>A nota da IA é uma estimativa</strong>, não uma decisão
           sobre você: ela não tem efeito fora do app. Se discordar de uma
           correção, escreva para nós.</li>
@@ -407,21 +582,32 @@
         exclusão é imediata e não depende de pedido:
       </p>
       <ul>
-        <li>abra o app e vá em <span class="caminho">Perfil → Ajustes → Apagar
+        <li>abra o app e vá em <span class="caminho">Início → Ajustes → Apagar
           todo o progresso</span>. Some tudo do aparelho e, com internet, o
-          código anônimo e a contagem de correções no nosso servidor;</li>
+          código anônimo e o vínculo com a sua assinatura no nosso
+          servidor;</li>
         <li>ou desinstale o app, o que remove tudo do aparelho;</li>
         <li>ou, se preferir pedir por escrito, escreva para
           <a href="mailto:suporte.jmk@gmail.com">suporte.jmk@gmail.com</a>.
           Respondemos em até 15 dias.</li>
       </ul>
       <p>
-        <strong>O que o botão não alcança:</strong> os relatórios de falha e as
+        <strong>Apagar o progresso não cancela a assinatura do Pro.</strong>
+        Cancelar é na sua conta da loja (no iPhone,
+        <span class="caminho">Ajustes → seu nome → Assinaturas</span>). Para
+        voltar a usar o Pro depois de apagar, toque em
+        <strong>Restaurar compra</strong> na tela do Pro.
+      </p>
+      <p>
+        <strong>O que o botão não alcança:</strong> o registro de quantas
+        correções cada assinatura fez e quanto custaram (seção 08), que não
+        aponta para você. Também não alcança os relatórios de falha e as
         estatísticas de uso já enviados. Eles estão com o Google, ligados só ao
         identificador de instalação — não ao seu nome —, e somem nos prazos da
-        seção 07. Ao apagar o progresso, o app zera esse identificador, e o que
+        seção 08. Ao apagar o progresso, o app zera esse identificador, e o que
         vier depois não se liga ao que veio antes. Se quiser, também pedimos ao
-        Google a exclusão: basta escrever.
+        Google a exclusão: basta escrever. O botão também não alcança os dados
+        dos anúncios, que ficam com o Google pela política dele (seção 05).
       </p>
       <p>
         Você também pode reclamar à Autoridade Nacional de Proteção de Dados
@@ -430,32 +616,35 @@
     </section>
 
     <section id="seguranca">
-      <h2><span class="num">10</span> Segurança</h2>
+      <h2><span class="num">11</span> Segurança</h2>
       <p>
         Toda comunicação do app com o servidor é criptografada (HTTPS). A chave
         de acesso à IA fica só no servidor, nunca no app. O servidor aceita
-        apenas pedidos do app original, num aparelho real, e o banco de dados
-        não pode ser lido de fora. Nenhum sistema é infalível; se algum
+        apenas pedidos do app original, num aparelho real — cada correção usa
+        um atestado que só vale uma vez —, só libera a correção por IA com um
+        comprovante verdadeiro da loja, e o banco de dados não pode ser lido de
+        fora. Nenhum sistema é infalível; se algum
         incidente afetar você, avisaremos e informaremos a ANPD, como manda a
         lei.
       </p>
     </section>
 
     <section id="publico">
-      <h2><span class="num">11</span> Público do app</h2>
+      <h2><span class="num">12</span> Público do app</h2>
       <p>
         O Simulado OAB é feito para estudantes de Direito e bacharéis que se
         preparam para o Exame de Ordem, e é destinado a maiores de 18 anos.
         Ele não é dirigido a crianças nem a adolescentes e não coleta dados
-        deles intencionalmente.
+        deles intencionalmente. Os anúncios também não são voltados a esse
+        público.
       </p>
     </section>
 
     <section id="mudancas">
-      <h2><span class="num">12</span> Mudanças e contato</h2>
+      <h2><span class="num">13</span> Mudanças e contato</h2>
       <p>
-        Se esta política mudar — por exemplo, quando houver plano pago ou login
-        —, a data no topo é atualizada e a nova versão passa a valer a partir
+        Se esta política mudar — por exemplo, se o app passar a ter login —,
+        a data no topo é atualizada e a nova versão passa a valer a partir
         da publicação. Mudança que amplie o que é coletado será avisada no app.
       </p>
       <p>
